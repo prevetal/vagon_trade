@@ -118,6 +118,16 @@ document.addEventListener('DOMContentLoaded', function () {
 
 		$(this).toggleClass('active').next().slideToggle(300)
 	})
+
+
+	// Mob. menu
+	$('.mob_header .menu_btn').click(function(e) {
+		e.preventDefault()
+
+		$(this).toggleClass('active')
+		$('body').toggleClass('lock')
+		$('header').toggleClass('show')
+	})
 })
 
 

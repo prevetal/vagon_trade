@@ -42,22 +42,21 @@
 
 
 
-    /*------------
-        Header
-    ------------*/
-    header
+    /*-----------------
+        Mob. header
+    -----------------*/
+    .mob_header
     {
         padding: 8px 0;
     }
 
 
-    header .cont
+    .mob_header .cont
     {
         padding: 0 8px;
     }
 
-
-    header .logo img
+    .mob_header .logo img
     {
         height: 35px;
     }

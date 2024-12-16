@@ -161,7 +161,8 @@ body
     color: var(--text_color);
 }
 
-body.menu_open
+
+body.lock
 {
     overflow: hidden;
 }
@@ -286,43 +287,6 @@ header .data
     color: #fff;
     border-radius: 20px;
     background: #1f37d2;
-}
-
-
-
-header .mob_menu_btn
-{
-    display: none;
-    align-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-
-
-header .mob_menu_btn .icon
-{
-    display: block;
-
-    width: 24px;
-    height: 24px;
-}
-
-
-header .mob_menu_btn .icon + .icon
-{
-    display: none;
-}
-
-
-header .mob_menu_btn.active .icon
-{
-    display: none;
-}
-
-header .mob_menu_btn.active .icon + .icon
-{
-    display: block;
 }
 
 
@@ -485,13 +449,120 @@ header .callback_btn
 
 
 
-header .mob_phone
+/*-----------------
+    Mob. header
+-----------------*/
+.mob_header
+{
+    position: relative;
+    z-index: 9;
+    top: 0;
+    left: 0;
+
+    display: none;
+
+    width: 100%;
+    padding: 16px 0;
+}
+
+
+.mob_header.absolute
+{
+    position: absolute;
+}
+
+
+.mob_header .cont
+{
+    align-content: center;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 0 16px;
+}
+
+
+.mob_header .data
+{
+    display: flex;
+    align-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    padding: 12px 24px;
+
+    color: #fff;
+    border-radius: 20px;
+    background: #1f37d2;
+}
+
+
+.lock .mob_header .data
+{
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+
+.mob_header .logo
+{
+    display: block;
+
+    margin-right: auto;
+    margin-left: auto;
+
+    text-decoration: none;
+
+    color: currentColor;
+}
+
+
+.mob_header .logo img
+{
+    display: block;
+
+    height: 40px;
+}
+
+
+.mob_header .menu_btn
+{
+    display: flex;
+    align-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+.mob_header .menu_btn .icon
+{
+    display: block;
+
+    width: 24px;
+    height: 24px;
+}
+
+
+.mob_header .menu_btn .icon + .icon
 {
     display: none;
 }
 
 
-header .mob_phone a
+.mob_header .menu_btn.active .icon
+{
+    display: none;
+}
+
+.mob_header .menu_btn.active .icon + .icon
+{
+    display: block;
+}
+
+
+.mob_header .phone a
 {
     display: flex;
     align-content: center;
@@ -505,7 +576,7 @@ header .mob_phone a
 }
 
 
-header .mob_phone .icon
+.mob_header .phone .icon
 {
     display: block;
 
