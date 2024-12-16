@@ -1,0 +1,377 @@
+@media print,
+(max-width: 1023px)
+{
+    /*-------------------
+        Global styles
+    -------------------*/
+    :root
+    {
+        --font_size_title: 40px;
+        --font_size_title_small: 24px;
+    }
+
+
+    .block
+    {
+        margin-bottom: 75px;
+    }
+
+
+    .swiper-button-next,
+    .swiper-button-prev
+    {
+        width: 50px;
+        height: 50px;
+    }
+
+
+    .swiper-button-prev
+    {
+        margin-left: -62px;
+    }
+
+    .swiper-button-next
+    {
+        margin-right: -62px;
+    }
+
+
+    .swiper-button-next .icon,
+    .swiper-button-prev .icon
+    {
+        width: 20px;
+        height: 20px;
+    }
+
+
+    .swiper-button-prev.right
+    {
+        right: 74px;
+    }
+
+
+
+    /*---------------
+        Page head
+    ---------------*/
+    .page_head .desc,
+    .page_head .desc.small
+    {
+        width: 100%;
+        margin-top: 40px;
+    }
+
+
+
+    /*-------------------
+        First section
+    -------------------*/
+    .first_section .title
+    {
+        font-size: 52px;
+    }
+
+
+
+    /*--------------
+        Services
+    --------------*/
+    .services .row
+    {
+        margin-left: 0;
+    }
+
+
+    .services .row > *
+    {
+        width: 100%;
+        margin-left: 0;
+    }
+
+
+
+    /*--------------
+        Projects
+    --------------*/
+    .projects .block_head
+    {
+        min-height: 50px;
+    }
+
+
+
+    /*------------------
+        Service head
+    ------------------*/
+    .service_head .desc
+    {
+        width: 100%;
+    }
+
+
+
+    /*------------------
+        Service info
+    ------------------*/
+    .service_info .title
+    {
+        font-size: 24px;
+    }
+
+
+
+    .service_info .about
+    {
+        width: 100%;
+        padding: 24px;
+
+        gap: 24px;
+    }
+
+
+    .service_info .steps
+    {
+        width: 100%;
+        padding: 40px 0 0;
+    }
+
+
+
+    /*------------------
+        Advantages 2
+    ------------------*/
+    .advantages2 .row > *
+    {
+        width: calc(50% - 24px);
+    }
+
+
+
+    /*--------------------
+        Other services
+    --------------------*/
+    .other_services .row
+    {
+        margin-left: 0;
+    }
+
+
+    .other_services .row > *
+    {
+        width: 100%;
+        margin-left: 0;
+    }
+
+
+    .other_services .service .number
+    {
+        font-size: 18px;
+    }
+
+
+
+    /*------------------
+        All services
+    ------------------*/
+    .all_services .row > *
+    {
+        width: calc(50% - 24px);
+    }
+
+
+    .all_services .title
+    {
+        font-size: 30px;
+
+        min-height: 118px;
+    }
+
+
+
+    /*---------------
+        Documents
+    ---------------*/
+    .documents .row > *
+    {
+        width: calc(50% - 24px);
+    }
+
+
+    .documents .title
+    {
+        font-size: 30px;
+
+        min-height: 118px;
+    }
+
+
+
+    /*------------------
+        All projects
+    ------------------*/
+    .all_projects .row > *
+    {
+        width: calc(50% - 24px);
+    }
+
+
+    .all_projects .title
+    {
+        font-size: 30px;
+
+        min-height: 118px;
+    }
+
+
+
+    /*------------------
+        Project info
+    ------------------*/
+    .project_info .col
+    {
+        width: 100%;
+        padding-top: 8px;
+
+        gap: 24px;
+    }
+
+
+    .project_info .task .title
+    {
+        font-size: 20px;
+    }
+
+
+    .project_info .image
+    {
+        width: 100%;
+        min-height: 0;
+        margin-top: 30px;
+        padding-bottom: 58.208%;
+    }
+
+
+
+    .project_info .result
+    {
+        width: 100%;
+        margin-top: 40px;
+    }
+
+
+    .project_info .result .info2
+    {
+        margin-top: 30px;
+
+        gap: 20px;
+    }
+
+
+    .project_info .result .review
+    {
+        margin-top: 30px;
+    }
+
+
+
+    .project_info .solution
+    {
+        width: 100%;
+        margin-top: 40px;
+        padding: 0;
+    }
+
+
+
+    /*-------------------
+        Contacts info
+    -------------------*/
+    .contacts_info .desc
+    {
+        font-size: 18px;
+    }
+
+
+
+    /*-------------
+        Persons
+    -------------*/
+    .persons .row > *
+    {
+        width: calc(50% - 24px);
+    }
+
+
+
+    /*--------------
+        About us
+    --------------*/
+    .about_us .col
+    {
+        gap: 24px;
+    }
+
+
+    .about_us .col .title
+    {
+        font-size: 24px;
+    }
+
+
+    .about_us .col .desc
+    {
+        font-size: 14px;
+    }
+
+
+    .about_us .persons
+    {
+        margin-top: 30px;
+    }
+
+
+    .about_us .persons .row > *
+    {
+        width: calc(50% - 24px);
+    }
+
+
+
+    /*------------
+        Footer
+    ------------*/
+    footer
+    {
+        padding-bottom: 230px;
+    }
+
+
+    footer .col
+    {
+        width: 100%;
+    }
+
+
+    footer .col + .col
+    {
+        border: none;
+    }
+
+
+    footer .bottom
+    {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+
+        width: 100%;
+        margin: 0;
+        padding: 40px 24px;
+    }
+
+
+    footer .feedback
+    {
+        padding: 12px 0 0;
+    }
+}

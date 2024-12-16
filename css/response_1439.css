@@ -1,0 +1,746 @@
+@media print,
+(max-width: 1439px)
+{
+    /*-------------------
+        Global styles
+    -------------------*/
+    :root
+    {
+        --font_size_title: 52px;
+        --font_size_title_small: 30px;
+    }
+
+
+    .block
+    {
+        margin-bottom: 100px;
+    }
+
+    .block.small_m
+    {
+        margin-bottom: 80px;
+    }
+
+    .block.smallest_m
+    {
+        margin-bottom: 60px;
+    }
+
+
+    .cont
+    {
+        padding: 0 24px;
+    }
+
+
+    .swiper-button-next,
+    .swiper-button-prev
+    {
+        width: 60px;
+        height: 60px;
+    }
+
+
+    .swiper-button-prev
+    {
+        margin-left: -72px;
+    }
+
+    .swiper-button-next
+    {
+        margin-right: -72px;
+    }
+
+
+    .swiper-button-prev.right
+    {
+        right: 84px;
+    }
+
+
+
+    /*------------
+        Header
+    ------------*/
+    header .phone
+    {
+        font-size: 16px;
+    }
+
+
+    header .callback_btn
+    {
+        margin-left: 30px;
+    }
+
+
+
+    /*------------------
+        Form elements
+    ------------------*/
+    .form .submit .agree
+    {
+        font-size: 14px;
+    }
+
+
+
+    /*----------------
+        Typography
+    ----------------*/
+    .text_block
+    {
+        font-size: 16px;
+    }
+
+
+
+    /*---------------
+        Page head
+    ---------------*/
+    .page_head .desc
+    {
+        font-size: 16px;
+
+        padding: 24px;
+    }
+
+
+
+    /*-------------------
+        First section
+    -------------------*/
+    .first_section
+    {
+        min-height: 680px;
+    }
+
+
+    .first_section .title
+    {
+        font-size: 70px;
+    }
+
+
+
+    /*--------------
+        Services
+    --------------*/
+    .services .row
+    {
+        margin-bottom: -24px;
+        margin-left: -24px;
+    }
+
+
+    .services .row > *
+    {
+        width: calc(50% - 24px);
+        margin-bottom: 24px;
+        margin-left: 24px;
+    }
+
+
+    .services .service,
+    .services .all_link
+    {
+        min-height: 340px;
+        padding: 24px;
+
+        gap: 24px;
+    }
+
+
+    .services .service .name,
+    .services .all_link .name
+    {
+        width: 340px;
+    }
+
+
+    .services .all_link .icon svg
+    {
+        width: 108px;
+        height: 108px;
+    }
+
+
+
+    /*----------------
+        Advantages
+    ----------------*/
+    .advantages .col
+    {
+        width: calc(50% - 12px);
+    }
+
+
+    .advantages .consult .info
+    {
+        padding: 24px;
+
+        gap: 24px;
+    }
+
+
+    .advantages .consult .title
+    {
+        font-size: 24px;
+    }
+
+
+    .advantages .consult .person .name
+    {
+        font-size: 18px;
+    }
+
+
+    .advantages .consult .person .post
+    {
+        font-size: 14px;
+    }
+
+
+    .advantages .consult .person .link a
+    {
+        width: 100%;
+    }
+
+
+    .advantages .grid
+    {
+        margin-bottom: -24px;
+        margin-left: -24px;
+    }
+
+
+    .advantages .grid > *
+    {
+        width: calc(50% - 24px);
+        margin-bottom: 24px;
+        margin-left: 24px;
+    }
+
+
+    .advantages .item
+    {
+        padding: 24px;
+    }
+
+
+
+    /*--------------
+        Projects
+    --------------*/
+    .projects .block_head
+    {
+        min-height: 60px;
+    }
+
+
+    .projects .swiper-slide
+    {
+        width: 500px;
+    }
+
+
+    .projects .project
+    {
+        min-height: 300px;
+        padding: 24px;
+
+        gap: 24px;
+    }
+
+
+    .projects .project .company
+    {
+        font-size: 14px;
+    }
+
+
+    .projects .project .desc
+    {
+        font-size: 16px;
+    }
+
+
+    .projects .project .year,
+    .projects .project .link,
+    .projects .project .city
+    {
+        font-size: 14px;
+    }
+
+
+
+    /*------------------
+        Service head
+    ------------------*/
+    .service_head .cont
+    {
+        min-height: 600px;
+        padding-bottom: 24px;
+
+        gap: 30px;
+    }
+
+
+    .service_head .desc
+    {
+        width: calc(50% - 12px);
+        padding: 24px;
+    }
+
+
+
+    /*------------------
+        Service info
+    ------------------*/
+    .service_info .title
+    {
+        font-size: 28px;
+    }
+
+
+
+    .service_info .about
+    {
+        width: calc(50% - 12px);
+        padding: 48px 24px;
+
+        gap: 24px;
+    }
+
+
+    .service_info .steps
+    {
+        width: calc(50% - 12px);
+        padding: 48px 24px 48px 0;
+
+        gap: 24px;
+    }
+
+
+
+    /*------------------
+        Advantages 2
+    ------------------*/
+    .advantages2 .row
+    {
+        margin-bottom: -24px;
+        margin-left: -24px;
+    }
+
+
+    .advantages2 .row > *
+    {
+        width: calc(20% - 24px);
+        margin-bottom: 24px;
+        margin-left: 24px;
+    }
+
+
+    .advantages2 .item
+    {
+        font-size: 16px;
+
+        padding: 24px;
+
+        gap: 30px;
+    }
+
+
+
+    /*--------------------
+        Other services
+    --------------------*/
+    .other_services .row
+    {
+        margin-bottom: -24px;
+        margin-left: -24px;
+    }
+
+
+    .other_services .row > *
+    {
+        width: calc(50% - 24px);
+        margin-bottom: 24px;
+        margin-left: 24px;
+    }
+
+
+    .other_services .service .number
+    {
+        font-size: 22px;
+    }
+
+
+    .other_services .service .name
+    {
+        font-size: 26px;
+    }
+
+
+
+    /*------------------
+        All services
+    ------------------*/
+    .all_services .row
+    {
+        margin-bottom: -24px;
+        margin-left: -24px;
+    }
+
+
+    .all_services .row > *
+    {
+        width: calc(33.333% - 24px);
+        margin-bottom: 24px;
+        margin-left: 24px;
+    }
+
+
+
+    /*---------------
+        Documents
+    ---------------*/
+    .documents .row
+    {
+        margin-bottom: -24px;
+        margin-left: -24px;
+    }
+
+
+    .documents .row > *
+    {
+        width: calc(33.333% - 24px);
+        margin-bottom: 24px;
+        margin-left: 24px;
+    }
+
+
+
+    /*------------------
+        All projects
+    ------------------*/
+    .all_projects .row
+    {
+        margin-bottom: -24px;
+        margin-left: -24px;
+    }
+
+
+    .all_projects .row > *
+    {
+        width: calc(33.333% - 24px);
+        margin-bottom: 24px;
+        margin-left: 24px;
+    }
+
+
+
+    /*------------------
+        Project info
+    ------------------*/
+    .project_info .col
+    {
+        width: calc(50% - 12px);
+        padding-top: 24px;
+
+        gap: 40px;
+    }
+
+
+    .project_info .page_head
+    {
+        gap: 40px;
+    }
+
+
+    .project_info .task .title
+    {
+        font-size: 24px;
+
+        margin-bottom: 12px;
+    }
+
+
+    .project_info .task .desc
+    {
+        font-size: 16px;
+    }
+
+
+    .project_info .features
+    {
+        font-size: 16px;
+
+        gap: 8px;
+    }
+
+
+    .project_info .image
+    {
+        width: calc(50% - 12px);
+        min-height: 440px;
+    }
+
+
+
+    .project_info .result
+    {
+        width: calc(50% - 12px);
+        padding: 24px;
+    }
+
+
+    .project_info .result .title
+    {
+        font-size: 24px;
+    }
+
+
+    .project_info .result .info
+    {
+        width: calc(100% - 272px);
+
+        gap: 24px;
+    }
+
+
+    .project_info .result .info2
+    {
+        padding-left: 24px;
+    }
+
+
+    .project_info .result .text_block
+    {
+        font-size: 16px;
+    }
+
+
+    .project_info .result .count
+    {
+        font-size: 16px;
+    }
+
+
+    .project_info .result .count .val
+    {
+        font-size: 44px;
+    }
+
+
+    .project_info .result .review
+    {
+        padding: 24px;
+    }
+
+
+    .project_info .result .source
+    {
+        margin-top: 24px;
+    }
+
+    .project_info .result .source a
+    {
+        font-size: 16px;
+    }
+
+
+
+    .project_info .solution
+    {
+        width: calc(50% - 12px);
+        padding: 24px 24px 24px 0;
+    }
+
+
+    .project_info .solution .title
+    {
+        font-size: 24px;
+
+        margin-bottom: 24px;
+    }
+
+
+    .project_info .solution .items
+    {
+        font-size: 16px;
+    }
+
+
+
+    /*-------------------
+        Contacts info
+    -------------------*/
+    .contacts_info .cont
+    {
+        gap: 24px;
+    }
+
+
+    .contacts_info .person
+    {
+        width: calc(55% - 12px);
+        padding: 23px;
+    }
+
+
+    .contacts_info .person .name
+    {
+        font-size: 24px;
+    }
+
+
+    .contacts_info .person .post
+    {
+        font-size: 16px;
+    }
+
+
+    .contacts_info .person .contacts
+    {
+        font-size: 22px;
+
+        gap: 16px;
+    }
+
+
+    .contacts_info .person .photo
+    {
+        width: 280px;
+        height: 280px;
+    }
+
+
+    .contacts_info .person .photo + *
+    {
+        width: calc(100% - 304px);
+
+        gap: 24px;
+    }
+
+
+    .contacts_info .desc
+    {
+        font-size: 24px;
+
+        width: calc(45% - 12px);
+    }
+
+
+    .contacts_info .data .title
+    {
+        font-size: 24px;
+
+        margin-bottom: 24px;
+    }
+
+
+    .contacts_info .data .row
+    {
+        gap: 24px;
+    }
+
+
+    .contacts_info .data a
+    {
+        font-size: 24px;
+
+        min-height: 100px;
+        padding: 20px 24px;
+    }
+
+
+
+    /*-------------
+        Persons
+    -------------*/
+    .persons .text
+    {
+        font-size: 16px;
+
+        margin-bottom: 24px;
+        padding: 24px;
+    }
+
+
+    .persons .row
+    {
+        margin-bottom: -24px;
+        margin-left: -24px;
+    }
+
+
+    .persons .row > *
+    {
+        width: calc(25% - 24px);
+        margin-bottom: 24px;
+        margin-left: 24px;
+    }
+
+
+    .persons .person
+    {
+        padding: 23px;
+    }
+
+
+    .persons .person .name
+    {
+        font-size: 22px;
+    }
+
+
+
+    /*--------------
+        About us
+    --------------*/
+    .about_us .col .title
+    {
+        font-size: 32px;
+    }
+
+
+    .about_us .col .desc
+    {
+        font-size: 16px;
+    }
+
+
+
+    /*------------
+        Footer
+    ------------*/
+    footer .contacts
+    {
+        padding: 48px 48px 48px 0;
+    }
+
+
+    footer .bottom
+    {
+        padding: 40px 24px 48px 0;
+
+        gap: 24px;
+    }
+
+
+    footer .requisites,
+    footer .copyright,
+    footer .privacy_policy_link
+    {
+        font-size: 14px;
+    }
+
+
+    footer .feedback
+    {
+        padding: 48px 0 48px 48px;
+
+        gap: 24px;
+    }
+}

@@ -1,0 +1,342 @@
+@media print,
+(max-width: 1899px)
+{
+    /*-------------------
+        Global styles
+    -------------------*/
+    :root
+    {
+        --font_size_title: 56px;
+        --font_size_title_small: 32px;
+    }
+
+
+    .block
+    {
+        margin-bottom: 120px;
+    }
+
+    .block.small_m
+    {
+        margin-bottom: 100px;
+    }
+
+    .block.smallest_m
+    {
+        margin-bottom: 72px;
+    }
+
+
+
+    /*------------
+        Header
+    ------------*/
+    header .data
+    {
+        padding: 15px 30px;
+    }
+
+
+    header .menu
+    {
+        gap: 30px;
+    }
+
+
+    header .callback_btn
+    {
+        margin-left: 40px;
+    }
+
+
+
+    /*----------------
+        Block head
+    ----------------*/
+    .block_head .all_link a
+    {
+        font-size: 22px;
+    }
+
+
+
+    /*----------------
+        Typography
+    ----------------*/
+    .text_block
+    {
+        font-size: 20px;
+    }
+
+
+    .text_block > *
+    {
+        margin-bottom: 20px;
+    }
+
+
+
+    /*------------------
+        Form elements
+    ------------------*/
+    .form .input,
+    .form textarea
+    {
+        font-size: 16px;
+    }
+
+
+    .form .submit .agree br
+    {
+        display: none;
+    }
+
+
+
+    /*---------------
+        Page head
+    ---------------*/
+    .page_head
+    {
+        margin-bottom: 60px;
+        padding-top: 30px;
+    }
+
+
+    .page_head .desc
+    {
+        font-size: 18px;
+    }
+
+
+    .page_head .desc.small
+    {
+        width: calc(100% - 520px);
+    }
+
+
+
+    /*-----------------
+        Breadcrumbs
+    -----------------*/
+    .breadcrumbs
+    {
+        gap: 8px;
+    }
+
+
+
+    /*-------------------
+        First section
+    -------------------*/
+    .first_section
+    {
+        min-height: 800px;
+        padding-top: 140px;
+    }
+
+
+    .first_section .title
+    {
+        font-size: 76px;
+    }
+
+
+
+    /*--------------
+        Services
+    --------------*/
+    .services .service,
+    .services .all_link
+    {
+        min-height: 394px;
+    }
+
+
+    .services .service .name,
+    .services .all_link .name
+    {
+        width: 394px;
+    }
+
+
+    .services .all_link .icon svg
+    {
+        width: 130px;
+        height: 130px;
+    }
+
+
+
+    /*----------------
+        Advantages
+    ----------------*/
+    .advantages .consult .person .name
+    {
+        font-size: 22px;
+    }
+
+
+
+    /*--------------
+        Projects
+    --------------*/
+    .projects .project
+    {
+        min-height: 320px;
+    }
+
+
+    .projects .project .company
+    {
+        font-size: 16px;
+    }
+
+
+    .projects .project .desc
+    {
+        font-size: 20px;
+    }
+
+
+    .projects .project .year,
+    .projects .project .link,
+    .projects .project .city
+    {
+        font-size: 16px;
+    }
+
+
+
+    /*------------------
+        Service head
+    ------------------*/
+    .service_head .desc
+    {
+        font-size: 16px;
+    }
+
+
+
+    /*------------------
+        Service info
+    ------------------*/
+    .service_info .items
+    {
+        font-size: 16px;
+    }
+
+
+
+    /*--------------------
+        Other services
+    --------------------*/
+    .other_services .service .name
+    {
+        font-size: 28px;
+    }
+
+
+
+    /*------------------
+        Project info
+    ------------------*/
+    .project_info .result .info
+    {
+        width: calc(100% - 278px);
+    }
+
+
+    .project_info .result .info2
+    {
+        width: 248px;
+    }
+
+
+
+    /*-------------------
+        Contacts info
+    -------------------*/
+    .contacts_info .person
+    {
+        width: calc(55% - 15px);
+    }
+
+
+    .contacts_info .desc
+    {
+        width: calc(45% - 15px);
+    }
+
+
+
+    /*--------------
+        About us
+    --------------*/
+    .about_us .col
+    {
+        width: 100%;
+
+        gap: 30px;
+    }
+
+
+    .about_us .col .title
+    {
+        font-size: 40px;
+
+        width: 100%;
+    }
+
+
+    .about_us .col .desc
+    {
+        width: 100%;
+    }
+
+
+    .about_us .persons
+    {
+        width: 100%;
+        margin-top: 40px;
+    }
+
+
+    .about_us .persons .row
+    {
+        margin-bottom: -24px;
+        margin-left: -24px;
+    }
+
+
+    .about_us .persons .row > *
+    {
+        width: calc(25% - 24px);
+        margin-bottom: 24px;
+        margin-left: 24px;
+    }
+
+
+
+    /*------------
+        Footer
+    ------------*/
+    footer .contacts .location
+    {
+        font-size: 16px;
+
+        margin-top: 30px;
+    }
+
+
+    footer .feedback
+    {
+        padding: 60px 0 60px 60px;
+    }
+
+
+    footer .feedback .desc
+    {
+        font-size: 16px;
+    }
+}

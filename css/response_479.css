@@ -1,0 +1,129 @@
+@media (max-width: 479px)
+{
+    /*-------------------
+        Global styles
+    -------------------*/
+    .cont
+    {
+        padding: 0 15px;
+    }
+
+
+
+    /*----------------
+        Block head
+    ----------------*/
+    .block_head .title span
+    {
+        display: block;
+    }
+
+
+
+    /*---------------
+        Page head
+    ---------------*/
+    .page_head .desc
+    {
+        padding: 15px;
+    }
+
+
+
+    /*-------------------
+        First section
+    -------------------*/
+    .first_section .title
+    {
+        font-size: 36px;
+    }
+
+
+
+    /*--------------
+        Services
+    --------------*/
+    .services .row
+    {
+        margin-bottom: -30px;
+    }
+
+
+    .services .row > *
+    {
+        margin-bottom: 30px;
+    }
+
+
+    .services .service,
+    .services .all_link
+    {
+        padding: 15px;
+
+        gap: 15px;
+    }
+
+
+
+    /*----------------
+        Advantages
+    ----------------*/
+    .advantages .grid
+    {
+        margin-bottom: -30px;
+    }
+
+
+    .advantages .grid > *
+    {
+        margin-bottom: 30px;
+    }
+
+
+
+    /*------------------
+        Service head
+    ------------------*/
+    .service_head .cont
+    {
+        padding-bottom: 15px;
+    }
+
+
+    .service_head .desc
+    {
+        padding: 15px;
+    }
+
+
+
+    /*------------------
+        Advantages 2
+    ------------------*/
+    .advantages2 .item
+    {
+        padding: 30px;
+
+        gap: 40px;
+    }
+
+
+
+    /*--------------------
+        Other services
+    --------------------*/
+    .other_services .service .name
+    {
+        font-size: 18px;
+    }
+
+
+
+    /*------------
+        Footer
+    ------------*/
+    footer .bottom
+    {
+        padding: 40px 15px;
+    }
+}

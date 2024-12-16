@@ -1,0 +1,623 @@
+@media print,
+(max-width: 767px)
+{
+    /*-------------------
+        Global styles
+    -------------------*/
+    .cont
+    {
+        padding: 0 20px;
+    }
+
+
+    .swiper-button-next,
+    .swiper-button-prev
+    {
+        margin-bottom: 90px;
+    }
+
+
+    .swiper-button-prev
+    {
+        margin-left: -60px;
+    }
+
+    .swiper-button-next
+    {
+        margin-right: -60px;
+    }
+
+
+    .swiper-button-next.right,
+    .swiper-button-prev.right
+    {
+        margin-bottom: 30px;
+    }
+
+
+    .swiper-button-prev.right
+    {
+        right: 66px;
+    }
+
+
+
+    /*------------
+        Header
+    ------------*/
+    header
+    {
+        padding: 8px 0;
+    }
+
+
+    header .cont
+    {
+        padding: 0 8px;
+    }
+
+
+    header .logo img
+    {
+        height: 35px;
+    }
+
+
+
+    /*----------------
+        Block head
+    ----------------*/
+    .block_head .title br
+    {
+        display: none;
+    }
+
+
+    .block_head .all_link
+    {
+        justify-content: center;
+
+        width: 100%;
+        padding-bottom: 20px;
+    }
+
+
+
+    /*------------------
+        Form elements
+    ------------------*/
+    .form .columns > *
+    {
+        width: calc(100% - var(--form_columns_offset));
+    }
+
+
+
+    /*---------------
+        Page head
+    ---------------*/
+    .page_head .desc
+    {
+        font-size: 14px;
+
+        padding: 20px;
+    }
+
+
+
+    /*-----------------
+        Breadcrumbs
+    -----------------*/
+    .breadcrumbs
+    {
+        font-size: 14px;
+    }
+
+
+
+    /*-------------------
+        First section
+    -------------------*/
+    .first_section
+    {
+        padding-top: 106px;
+    }
+
+
+    .first_section .title
+    {
+        font-size: 40px;
+    }
+
+
+
+    /*--------------
+        Services
+    --------------*/
+    .services .row
+    {
+        margin-bottom: -20px;
+    }
+
+    .services .row > *
+    {
+        margin-bottom: 20px;
+    }
+
+
+    .services .service,
+    .services .all_link
+    {
+        min-height: 350px;
+        padding: 20px;
+
+        gap: 20px;
+    }
+
+
+    .services .all_link .icon svg
+    {
+        width: 110px;
+        height: 110px;
+    }
+
+
+
+    /*----------------
+        Advantages
+    ----------------*/
+    .advantages .consult .photo
+    {
+        width: 100%;
+
+        border-radius: 20px 20px 0 0;
+    }
+
+
+    .advantages .consult .info
+    {
+        width: 100%;
+        margin-left: 0;
+        padding: 20px;
+
+        border-radius: 0 0 20px 20px;
+
+        gap: 20px;
+    }
+
+
+    .advantages .col + .col
+    {
+        margin-top: 20px;
+    }
+
+
+    .advantages .grid
+    {
+        margin-bottom: -20px;
+        margin-left: 0;
+    }
+
+
+    .advantages .grid > *
+    {
+        width: 100%;
+        margin-bottom: 20px;
+        margin-left: 0;
+    }
+
+
+    .advantages .item
+    {
+        padding: 20px;
+    }
+
+
+
+    /*--------------
+        Projects
+    --------------*/
+    .projects .block_head:not(.mob_default)
+    {
+        justify-content: center;
+
+        min-height: 0;
+
+        text-align: center;
+    }
+
+
+    .projects .block_head .all_link
+    {
+        margin-top: 80px;
+    }
+
+
+    .projects .swiper-slide
+    {
+        width: 345px;
+    }
+
+
+    .projects .project
+    {
+        padding: 20px;
+
+        gap: 20px;
+    }
+
+
+
+    /*------------------
+        Service head
+    ------------------*/
+    .service_head .cont
+    {
+        min-height: 680px;
+    }
+
+
+    .service_head .desc
+    {
+        font-size: 14px;
+
+        padding: 20px;
+    }
+
+
+
+    /*------------------
+        Service info
+    ------------------*/
+    .service_info .about
+    {
+        padding: 20px;
+
+        gap: 20px;
+    }
+
+
+
+    /*------------------
+        Advantages 2
+    ------------------*/
+    .advantages2 .row
+    {
+        margin-bottom: -30px;
+        margin-left: 0;
+    }
+
+
+    .advantages2 .row > *
+    {
+        width: 100%;
+        margin-bottom: 30px;
+        margin-left: 0;
+    }
+
+
+
+    /*--------------------
+        Other services
+    --------------------*/
+    .other_services .row
+    {
+        margin-bottom: -30px;
+    }
+
+
+    .other_services .row > *
+    {
+        margin-bottom: 30px;
+    }
+
+
+    .other_services .service .name
+    {
+        font-size: 20px;
+    }
+
+
+
+    /*------------------
+        All services
+    ------------------*/
+    .all_services .row
+    {
+        margin-bottom: -30px;
+        margin-left: 0;
+    }
+
+
+    .all_services .row > *
+    {
+        width: 100%;
+        margin-bottom: 30px;
+        margin-left: 0;
+    }
+
+
+    .all_services .title
+    {
+        display: flex;
+        align-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: space-between;
+
+        cursor: pointer;
+        text-align: left;
+        pointer-events: auto;
+    }
+
+
+    .all_services .title .icon
+    {
+        display: block;
+    }
+
+
+    .all_services .items
+    {
+        display: none;
+    }
+
+
+    .all_services .items > * + *
+    {
+        margin-top: 20px;
+    }
+
+
+
+    /*---------------
+        Documents
+    ---------------*/
+    .documents .row
+    {
+        margin-bottom: -30px;
+        margin-left: 0;
+    }
+
+
+    .documents .row > *
+    {
+        width: 100%;
+        margin-bottom: 30px;
+        margin-left: 0;
+    }
+
+
+
+    /*------------------
+        All projects
+    ------------------*/
+    .all_projects .row
+    {
+        margin-bottom: -30px;
+        margin-left: 0;
+    }
+
+
+    .all_projects .row > *
+    {
+        width: 100%;
+        margin-bottom: 30px;
+        margin-left: 0;
+    }
+
+
+    .all_projects .title
+    {
+        display: flex;
+        align-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: space-between;
+
+        cursor: pointer;
+        text-align: left;
+        pointer-events: auto;
+    }
+
+
+    .all_projects .title .icon
+    {
+        display: block;
+    }
+
+
+    .all_projects .list
+    {
+        display: none;
+    }
+
+
+    .all_projects .list > * + *
+    {
+        margin-top: 20px;
+    }
+
+
+
+    /*------------------
+        Project info
+    ------------------*/
+    .project_info .task .title
+    {
+        font-size: 18px;
+    }
+
+
+    .project_info .task .desc
+    {
+        font-size: 14px;
+    }
+
+
+    .project_info .features
+    {
+        font-size: 14px;
+    }
+
+
+    .project_info .result
+    {
+        padding: 20px;
+    }
+
+
+    .project_info .result .text_block
+    {
+        font-size: 14px;
+    }
+
+
+    .project_info .result .info2
+    {
+        margin-top: 24px;
+    }
+
+
+    .project_info .result .count,
+    .project_info .result .completion_dates
+    {
+        font-size: 14px;
+    }
+
+
+    .project_info .result .review
+    {
+        padding: 20px;
+    }
+
+
+    .project_info .result .source a
+    {
+        font-size: 14px;
+    }
+
+
+
+    /*-------------------
+        Contacts info
+    -------------------*/
+    .contacts_info .person
+    {
+        padding: 19px;
+    }
+
+
+    .contacts_info .person .photo
+    {
+        width: 100%;
+        height: auto;
+        margin-bottom: 20px;
+        padding-bottom: 100%;
+    }
+
+
+    .contacts_info .person .photo + *
+    {
+        width: 100%;
+    }
+
+
+    .contacts_info .person .name
+    {
+        font-size: 30px;
+    }
+
+
+    .contacts_info .data
+    {
+        margin-top: 20px;
+    }
+
+
+    .contacts_info .data .title
+    {
+        font-size: 18px;
+
+        text-align: left;
+    }
+
+
+    .contacts_info .data .row
+    {
+        gap: 20px;
+    }
+
+
+    .contacts_info .data .row > *
+    {
+        width: 100%;
+    }
+
+
+    .contacts_info .data a
+    {
+        font-size: 20px;
+
+        min-height: 74px;
+    }
+
+
+
+    /*-------------
+        Persons
+    -------------*/
+    .persons .text
+    {
+        font-size: 14px;
+
+        margin-bottom: 20px;
+        padding: 20px;
+    }
+
+
+    .persons .row
+    {
+        margin-left: 0;
+    }
+
+
+    .persons .row > *
+    {
+        width: 100%;
+        margin-left: 0;
+    }
+
+
+
+    /*--------------
+        About us
+    --------------*/
+    .about_us .persons .row
+    {
+        margin-left: 0;
+    }
+
+
+    .about_us .persons .row > *
+    {
+        width: 100%;
+        margin-left: 0;
+    }
+
+
+
+    /*------------
+        Footer
+    ------------*/
+    footer .contacts
+    {
+        padding: 40px 0;
+    }
+
+
+    footer .bottom
+    {
+        padding: 40px 20px;
+    }
+}
