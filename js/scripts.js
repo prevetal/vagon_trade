@@ -128,6 +128,87 @@ document.addEventListener('DOMContentLoaded', function () {
 		$('body').toggleClass('lock')
 		$('header').toggleClass('show')
 	})
+
+
+	// Menu
+	$('header .sub_menu a.sub_link2').click(function (e) {
+		e.preventDefault()
+
+		if (!$(this).hasClass('active')) {
+			$('header .sub_menu a.sub_link2').removeClass('active')
+			$('header .sub_menu .sub').slideUp(300)
+
+			$(this).addClass('active').next().slideDown(300)
+		} else {
+			$(this).removeClass('active').next().slideUp(300)
+		}
+	})
+
+
+	if (is_touch_device()) {
+		const subMenus = document.querySelectorAll('header .menu .sub_menu')
+
+		// Submenu on the touch screen
+		$('header .menu_item > a.sub_link').addClass('touch_link')
+
+		$('header .menu_item > a.sub_link').click(function (e) {
+			const dropdown = $(this).next()
+
+			if (dropdown.css('visibility') === 'hidden') {
+				e.preventDefault()
+
+				subMenus.forEach(el => el.classList.remove('show'))
+				dropdown.addClass('show')
+
+				BODY.style = 'cursor: pointer;'
+			}
+		})
+
+		// Close the submenu when clicking outside it
+		document.addEventListener('click', e => {
+			if ($(e.target).closest('.menu').length === 0) {
+				subMenus.forEach(el => el.classList.remove('show'))
+
+				BODY.style = 'cursor: default;'
+			}
+		})
+	}
+
+
+	// Fancybox
+	Fancybox.defaults.autoFocus = false
+	Fancybox.defaults.trapFocus = false
+	Fancybox.defaults.dragToClose = false
+	Fancybox.defaults.placeFocusBack = false
+	Fancybox.defaults.l10n = {
+		CLOSE: 'Закрыть',
+		NEXT: 'Следующий',
+		PREV: 'Предыдущий',
+		MODAL: 'Вы можете закрыть это модальное окно нажав клавишу ESC'
+	}
+
+	Fancybox.defaults.tpl = {
+		closeButton: '<button data-fancybox-close class="f-button is-close-btn" title="{{CLOSE}}"><svg><use xlink:href="images/sprite.svg#ic_close"></use></svg></button>',
+
+		main: `<div class="fancybox__container" role="dialog" aria-modal="true" aria-label="{{MODAL}}" tabindex="-1">
+			<div class="fancybox__backdrop"></div>
+			<div class="fancybox__carousel"></div>
+			<div class="fancybox__footer"></div>
+		</div>`,
+	}
+
+
+	// Modals
+	$('.modal_btn').click(function(e) {
+		e.preventDefault()
+
+		Fancybox.close()
+
+		Fancybox.show([{
+			src: document.getElementById(e.target.getAttribute('data-modal')),
+			type: 'inline'
+		}])
+	})
 })
 
 

@@ -31,16 +31,34 @@
 
 
 
+    /*--------------
+        Fancybox
+    --------------*/
+    .fancybox__slide
+    {
+        padding: 32px;
+    }
+
+
+
     /*------------
         Header
     ------------*/
-    header
+    header,
+    header.absolute
     {
-        top: 59px;
+        position: fixed;
+        top: 0;
+        left: 8px;
 
         display: none;
 
-        padding: 8px;
+        width: calc(100% - 16px);
+        height: 100%;
+        min-height: -moz-available;
+        min-height: -webkit-fill-available;
+        min-height:         fill-available;
+        padding: 67px 0 8px;
     }
 
     header.show
@@ -51,17 +69,33 @@
 
     header .cont
     {
+        height: 100%;
+        min-height: -moz-available;
+        min-height: -webkit-fill-available;
+        min-height:         fill-available;
         padding: 0;
     }
 
 
     header .data
     {
+        display: block;
+        overflow: auto;
+        align-content: flex-start;
+        align-items: flex-start;
+        justify-content: flex-start;
+
+        height: 100%;
+        min-height: -moz-available;
+        min-height: -webkit-fill-available;
+        min-height:         fill-available;
         padding: 30px;
 
         color: var(--text_color);
         border-radius: 0 0 20px 20px;
         background: #fff;
+
+        overscroll-behavior-y: contain;
     }
 
 
@@ -101,6 +135,34 @@
         font-size: 18px;
 
         justify-content: flex-start;
+    }
+
+
+    header .menu_item .sub_menu,
+    header .menu_item:hover .sub_menu
+    {
+        position: relative;
+        top: 0;
+        left: 0;
+
+        display: none;
+        visibility: hidden;
+
+        width: 100%;
+        margin: 0;
+        padding: 24px 0 0;
+
+        pointer-events: auto;
+
+        opacity: 1;
+        border-radius: 0;
+    }
+
+
+    header .menu_item > a.touch_link + .sub_menu.show
+    {
+        display: flex;
+        visibility: visible;
     }
 
 
@@ -456,5 +518,35 @@
     .about_us .persons .row > *
     {
         width: calc(33.333% - 24px);
+    }
+
+
+
+    /*-----------
+        PopUp
+    -----------*/
+    .modal
+    {
+        width: 640px;
+    }
+
+
+    .modal_title
+    {
+        font-size: 40px;
+    }
+
+
+    .modal_desc
+    {
+        font-size: 16px;
+
+        margin-top: 30px;
+    }
+
+
+    .modal .form
+    {
+        margin-top: 30px;
     }
 }

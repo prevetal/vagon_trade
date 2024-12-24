@@ -42,6 +42,23 @@
 
 
 
+    /*--------------
+        Fancybox
+    --------------*/
+    .fancybox__slide
+    {
+        padding: 20px;
+    }
+
+
+    .fancybox__content > .f-button.is-close-btn,
+    .is-compact .fancybox__content > .f-button.is-close-btn
+    {
+        top: 20px;
+    }
+
+
+
     /*-----------------
         Mob. header
     -----------------*/
@@ -618,5 +635,39 @@
     footer .bottom
     {
         padding: 40px 20px;
+    }
+
+
+
+    /*-----------
+        PopUp
+    -----------*/
+    .modal
+    {
+        padding: 32px;
+    }
+
+
+    .modal_title
+    {
+        font-size: 36px;
+    }
+
+
+    .modal_desc
+    {
+        margin-top: 24px;
+    }
+
+
+    .modal_desc br
+    {
+        display: none;
+    }
+
+
+    .modal .form
+    {
+        margin-top: 24px;
     }
 }
